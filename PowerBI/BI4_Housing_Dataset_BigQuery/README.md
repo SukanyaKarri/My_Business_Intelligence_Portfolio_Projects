@@ -7,4 +7,7 @@
 
 ### Loading the Data from CSV to BigQuery
 - Add file--> Select source--> create new dataset ( in pop up --give datasetID --region-- ok) -- selet name for table click ok
+
+### Importing to PowerBI
+- Get Data--> BigQuery--> Establish the connection from source--> chose the dataset-->load/Transform Data
   
