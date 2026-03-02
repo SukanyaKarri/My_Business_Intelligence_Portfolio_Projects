@@ -10,4 +10,9 @@
 
 ### Importing to PowerBI
 - Get Data--> BigQuery--> Establish the connection from source--> chose the dataset-->load/Transform Data
+
+### Data Profiling
+- Check Data Types
+- Handle null values (anything <1 percent empty values replaced them with most frequent value)
+- No duplicates found (validated usign uniq and distinct values)
   
