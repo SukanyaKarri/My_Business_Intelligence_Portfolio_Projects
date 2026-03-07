@@ -15,4 +15,8 @@
 - Check Data Types
 - Handle null values (anything <1 percent empty values replaced them with most frequent value)
 - No duplicates found (validated usign uniq and distinct values)
-  
+
+### DAX measures:
+YOY
+### calculated column:
+offer price 
