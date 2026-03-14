@@ -21,4 +21,6 @@ YOY_Sales_Gowth- Used the var ,calculate methods taking ref of curr-prev/prev lo
 - Created a Calculate table ("DateTable") for this using min and max of date
 - used a duplicated record of dateonly dimension column with datevalue in calcutted table which is create from existing date column of fact table
 ### calculated column:
-offer price 
+offer price - scatter plot is used for newly created offer price in compariosn to purchase price, scatter plot is used becoz it helps in understaning relation between 2 variables
+
+
