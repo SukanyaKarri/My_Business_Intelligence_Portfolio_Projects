@@ -16,11 +16,14 @@
 - Handle null values (anything <1 percent empty values replaced them with most frequent value)
 - No duplicates found (validated usign uniq and distinct values)
 
-### DAX measures & Calculted columns:  [Refer to notepad scripts for Measures]
+## DAX measures & Calculted columns:  [Refer to notepad scripts for Measures]
 YOY_Sales_Gowth- Used the var ,calculate methods taking ref of curr-prev/prev logic " here max-latest year is considered as current year"
 - Created a Calculate table ("DateTable") for this using min and max of date
 - used a duplicated record of dateonly dimension column with datevalue in calcutted table which is create from existing date column of fact table
 ### calculated column:
 offer price - scatter plot is used for newly created offer price in compariosn to purchase price, scatter plot is used becoz it helps in understaning relation between 2 variables
+### Median Sales Price Dax: Used Bar chart to check median value for regions
+## Metrics : DAX : Unit sold for lat_year  & quarter created using calcualte and filter  - KPI card used
+
 
 
