@@ -25,5 +25,9 @@ offer price - scatter plot is used for newly created offer price in compariosn t
 ### Median Sales Price Dax: Used Bar chart to check median value for regions
 ## Metrics : DAX : Unit sold for lat_year  & quarter created using calcualte and filter  - KPI card used
 
+## Page 2: Sales Performance
+- Created DAX: Aveage SQM per price by region - Donut is used
+- DAX : Total YTD  using TotalYTD - Barchart is used
+
 
 
