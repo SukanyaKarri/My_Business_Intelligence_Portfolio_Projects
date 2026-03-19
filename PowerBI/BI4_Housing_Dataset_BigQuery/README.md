@@ -31,8 +31,11 @@ offer price - scatter plot is used for newly created offer price in compariosn t
 - Calculate Column: Age of house DAX is created -key influencer visual is used analysed with SQM prices
 - DAX measure: Offer to SQM ratio - ratio of offer price and sqm is calculated using divide
 
-## Page 3: House Analysis
-
+## Page 3: House Analysis- All chart values are analysied towards House_type 
+- created 2 cluster column chart for offer price & purchase price, inflation rate/intrest rate yield by house_type
+- line and bar combo chart is used for representation of sqm and sqm_prices to anylise house type
+- Slicer are included (city,region,sales_type,region) for better understading of data
+  
 
 
 
