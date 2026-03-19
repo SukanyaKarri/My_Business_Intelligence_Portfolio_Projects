@@ -1,8 +1,7 @@
-# House_mArket_Overview
+# House_market_Overview
 
 Dashboard: [link]
 
---
 
 ## Data Architecture
 
@@ -11,7 +10,6 @@ Dashboard: [link]
 - **Data Transformation (ETL/ELT):** SQL (within BigQuery to clean and aggregate data)
 - **Data Visualization:** Power BI (connected via DirectQuery or Import to BigQuery)
 
---
 
 ## Workflow
 
@@ -25,7 +23,7 @@ Dashboard: [link]
 2. Establish connection from source  
 3. Choose dataset → Load/Transform Data  
 
---
+
 
 ## Data Profiling
 
@@ -33,7 +31,7 @@ Dashboard: [link]
 - Handled null values (anything <1% empty replaced with most frequent value)  
 - No duplicates found (validated using `UNIQ` and `DISTINCT`)  
 
---
+
 
 ## DAX Measures & Calculated Columns
 
@@ -52,7 +50,7 @@ Dashboard: [link]
   - Units sold for last year & quarter (using `CALCULATE` + `FILTER`)  
   - KPI card visualization  
 
---
+
 
 ## Page 2: Sales Performance
 
@@ -61,7 +59,7 @@ Dashboard: [link]
 - **Calculated Column: Age of House** → Key Influencer visual (analyzed with SQM prices)  
 - **Offer to SQM Ratio (DAX)** → Ratio of offer price and SQM using `DIVIDE`  
 
---
+
 
 ## Page 3: House Analysis
 
@@ -75,5 +73,5 @@ Dashboard: [link]
 - Slicers included:  
   - City, Region, Sales Type, Region (for better filtering and understanding)  
 
---
+
 
