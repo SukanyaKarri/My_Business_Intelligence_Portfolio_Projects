@@ -28,6 +28,11 @@ offer price - scatter plot is used for newly created offer price in compariosn t
 ## Page 2: Sales Performance
 - Created DAX: Aveage SQM per price by region - Donut is used
 - DAX : Total YTD  using TotalYTD - Barchart is used
+- Calculate Column: Age of house DAX is created -key influencer visual is used analysed with SQM prices
+- DAX measure: Offer to SQM ratio - ratio of offer price and sqm is calculated using divide
+
+## Page 3: House Analysis
+
 
 
 
